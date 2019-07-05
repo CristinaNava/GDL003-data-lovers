@@ -3,15 +3,242 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/> 
   </head>
   <body>
+    
+    <header class= "header">
+      <div class= "contenedor">
+         <span class="icon-menu"  id="btn-menu"><img src= "img/logo.png" alt="" class="logo"></span>
+          <br>
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <button id="filterGrass" class="menu__item"><a class="menu__link"> TIPO PLANTA </a></li>
+            <button id="filterNormal" class="menu__item"></li><a class="menu__link"> TIPO NORMAL </a></li>
+            <button id="filterFire" class="menu__item"></li><a class="menu__link"> TIPO FUEGO </a></li>
+            <button id="filterPoison" class="menu__item"></li><a class="menu__link"> TIPO VENENO </a></li>
+            <button id="filterElectric" class="menu__item"><a class="menu__link"> TIPO ELECTRICO </a></li>
+            <button id="filterIce" class="menu__item"></li><a class="menu__link"> TIPO HIELO </a></li>
+            <button id="filterFighting" class="menu__item"></li><a class="menu__link"> TIPO PELEADOR </a></li>
+            <button id="filterGround" class="menu__item"></li><a class="menu__link"> TIPO TIERRA </a></li>
+            <button id="filterFlying" class="menu__item"><a class="menu__link"> TIPO VOLADOR </a></li>
+            <button id="filterPsychic" class="menu__item"></li><a class="menu__link"> TIPO PSIQUICO </a></li>
+            <button id="filterBug" class="menu__item"></li><a class="menu__link"> TIPO INSECTO </a></li>
+            <button id="filterRock" class="menu__item"></li><a class="menu__link"> TIPO ROCA </a></li>
+            <button id="filterGhost" class="menu__item"><a class="menu__link"> TIPO FANTASMA </a></li>
+            <button id="filterDragon" class="menu__item"></li><a class="menu__link"> TIPO DRAGON </a></li>
+            <button id="filterDark" class="menu__item"></li><a class="menu__link"> TIPO SINIESTRO </a></li>
+            <button id="filterSteel" class="menu__item"></li><a class="menu__link"> TIPO ACERO </a></li>
+            <button id="filterFairy" class="menu__item"><a class="menu__link"> TIPO HADA </a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class= "baner"></div>
+    <br>
+      <img src="img/maxresdefault.jpg">
+        <div class="contenedor">  
+        <div class="baner__descripcion">
+          <h1 class="contenedor">POKEMONS GO</h1>
+            <p class="contenedor">Los pokémon son una clase de criaturas (monstruos) basadas en muchos 
+              casos en animales reales o criaturas míticas y mitológicas orientales. Otros se inspiran 
+              en cosas inanimadas y legendarias. Son capturados con un aditamento especial llamado Poké 
+              Ball (Pokebola en algunas traducciones).
+            </p>
+        </div>
+        <div id="btn-prev">&#60;</div>
+          <div id="btn-next">&#62;</div>
+
+        </div>
+        <div class= "slider__txt2"></div>
+          <div class="contenedor">Cada pokémon tiene una cantidad determinada de movimientos o 
+            ataques que puede aprender. Estos se pueden clasificar por su tipo o elemento (por ejemplo, el 
+            ataque trueno es un ataque tipo eléctrico). </div>
+    </div>
+    
+    <main>
+      <section class="destino">
+        <div class="contenedor">
+          <h2 calass="destino__titulo"></h2>
+            <p class="destino__txt">Cada pokémon tiene una cantidad determinada de movimientos o 
+                ataques que puede aprender. Estos se pueden clasificar por su tipo o elemento (por ejemplo, el 
+                ataque trueno es un ataque tipo eléctrico).</p>
+            <div class="destino__columna"></div>
+
+        </div>
+      </section>
+    </main>
+    <br><br><br><br> <br><br><br><br>
     <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
+    
+    <div id="cards">  
+
+      <figure class="card card--normal">
+        <div class="card__image-container">
+          <img src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Eevee" class="card__image">   
+        </div>
+        
+        <figcaption class="card__caption">
+          <h1 class="card__name">Eevee</h1>
+      
+          <h3 class="card__type">
+            normal
+          </h3>
+      
+          <table class="card__stats">
+            <tbody><tr>
+              <th>HP</th>
+              <td>55</td>
+            </tr>
+            <tr>
+              <th>Attack</th>
+              <td>55</td>
+            </tr>
+            
+            <tr>
+              <th>Defense</th>
+              <td>50</td>
+            </tr>
+      
+            <tr>
+              <th>Special Attack</th>
+              <td>45</td>
+            </tr>
+            <tr>
+              <th>Special Defense</th>
+              <td>65</td>
+            </tr>
+            <tr>
+              <th>Speed</th>  
+              <td>55</td>
+            </tr>
+          </tbody></table>
+          
+          <div class="card__abilities">
+            <h4 class="card__ability">
+              <span class="card__label">Ability</span>
+              Run Away
+            </h4>
+            <h4 class="card__ability">
+              <span class="card__label">Hidden Ability</span>
+              Anticipation
+            </h4>
+          </div>
+        </figcaption>
+      </figure>
+      
+      <figure class="card card--water">
+        <div class="card__image-container">
+          <img src="http://www.serebii.net/pokemongo/pokemon/002.png" alt="Vaporeon" class="card__image">   
+        </div>
+        
+        <figcaption class="card__caption">
+          <h1 class="card__name">Vaporeon</h1>
+      
+          <h3 class="card__type">
+            water
+          </h3>
+      
+          <table class="card__stats">
+            <tbody><tr>
+              <th>HP</th>
+              <td>130</td>
+            </tr>
+            <tr>
+              <th>Attack</th>
+              <td>65</td>
+            </tr>
+            
+            <tr>
+              <th>Defense</th>
+              <td>60</td>
+            </tr>
+      
+            <tr>
+              <th>Special Attack</th>
+              <td>110</td>
+            </tr>
+            <tr>
+              <th>Special Defense</th>
+              <td>95</td>
+            </tr>
+            <tr>
+              <th>Speed</th>  
+              <td>65</td>
+            </tr>
+          </tbody></table>
+          
+          <div class="card__abilities">
+            <h4 class="card__ability">
+              <span class="card__label">Ability</span>
+              Absorb
+            </h4>
+            <h4 class="card__ability">
+              <span class="card__label">Hidden Ability</span>
+              Hydration
+            </h4>
+          </div>
+        </figcaption>
+      </figure>
+      
+      <figure class="card card--electric">
+        <div class="card__image-container">
+          <img src="http://www.serebii.net/pokemongo/pokemon/003.png" alt="Jolteon" class="card__image">   
+        </div>
+        
+        <figcaption class="card__caption">
+          <h1 class="card__name">Jolteon</h1>
+      
+          <h3 class="card__type">
+            electric
+          </h3>
+      
+          <table class="card__stats">
+            <tbody><tr>
+              <th>HP</th>
+              <td>65</td>
+            </tr>
+            <tr>
+              <th>Attack</th>
+              <td>65</td>
+            </tr>
+            
+            <tr>
+              <th>Defense</th>
+              <td>60</td>
+            </tr>
+      
+            <tr>
+              <th>Special Attack</th>
+              <td>110</td>
+            </tr>
+            <tr>
+              <th>Special Defense</th>
+              <td>95</td>
+            </tr>
+            <tr>
+              <th>Speed</th>  
+              <td>130</td>
+            </tr>
+          </tbody></table>
+          
+          <div class="card__abilities">
+            <h4 class="card__ability">
+              <span class="card__label">Ability</span>
+              Volt Absorb
+            </h4>
+            <h4 class="card__ability">
+              <span class="card__label">Hidden Ability</span>
+              Quick Feet
+            </h4>
+          </div>
+        </figcaption>
+      </figure>
+      </script>
+        
+    
+    <script src="./data/pokemon/pokemon.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
   </body>
