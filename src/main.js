@@ -23,7 +23,7 @@ POKEMON.pokemon.forEach(elemento => {
     elementImage.setAttribute("height", "100");
     elementImage.setAttribute("cards", "");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
 
 POKEMON.pokemon.forEach(elemento => {
@@ -42,8 +42,10 @@ let filterGrass = () => {
         elementImage.setAttribute("width", "100");
         elementImage.setAttribute("height", "100");
         root.appendChild(elementImage);
-        document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+        document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
     });
+
+    window.scroll(0, 600);
   
 };
 
@@ -60,8 +62,10 @@ let filterNormal = () => {
      elementImage.setAttribute("width", "100");
      elementImage.setAttribute("height", "100");
      root.appendChild(elementImage);
-     document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses ;
+     document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
     });
+
+    window.scroll(0, 600);
 };
 
 //comienza tipoFire
@@ -77,8 +81,11 @@ let filterFire = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses ;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoPoison
@@ -94,8 +101,11 @@ let filterPoison = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoElectric
@@ -111,8 +121,11 @@ let filterElectric = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoIce
@@ -128,8 +141,11 @@ let filterIce = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoFighting
@@ -145,8 +161,11 @@ let filterFighting = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoGround
@@ -162,8 +181,11 @@ let filterGround = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoFlying
@@ -179,8 +201,11 @@ let filterFlying = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoPsychic
@@ -196,8 +221,11 @@ let filterPsychic = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoBug
@@ -213,8 +241,11 @@ let filterBug = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoRock
@@ -230,8 +261,11 @@ let filterRock = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoGhost
@@ -247,8 +281,11 @@ let filterGhost = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoDragon
@@ -264,8 +301,11 @@ let filterDragon = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoDark
@@ -281,8 +321,11 @@ let filterDark = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 //comienza tipoSteel
@@ -298,8 +341,11 @@ let filterSteel = () => {
     elementImage.setAttribute("width", "100");
     elementImage.setAttribute("height", "100");
     root.appendChild(elementImage);
-    document.getElementById("root").innerHTML += "<br>" + elemento.name + "<br>" + elemento.num + "<br>" + elemento.type + "<br>" + elemento.weaknesses;
+    document.getElementById("root").innerHTML += `<span class="pokemonCard"><br> ${elemento.name} <br> ${elemento.num} <br> ${elemento.type} <br> ${elemento.weaknesses}<>`;
 });
+
+window.scroll(0,600);
+
 };
 
 filterButtonGrass.addEventListener("click", filterGrass);
